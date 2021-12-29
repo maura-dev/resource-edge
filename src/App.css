@@ -672,7 +672,7 @@ margin-top: 50px;
 
   .mobile-nav{
     display: flex;
-    width: 90vw;
+    width: 85vw;
   }
 
   .desktop-nav{
@@ -804,9 +804,14 @@ margin-top: 50px;
   .admin-card{
     margin-left: 0px;
   }
+
+  .mobile-nav{
+    width: 80vw;
+  }
 }
 
 @media only screen and (max-width:400px) {
+
   .hello-text{
     font-size: 18px;
   }
@@ -837,6 +842,7 @@ margin-top: 50px;
 
   .mobile-nav{
     padding: 20px;
+    width: 85vw;
   }
 
   .resource-card > div > img,
