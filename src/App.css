@@ -527,6 +527,7 @@ margin-top: 50px;
 }
 
 .l-logo{
+  cursor: pointer;
   display: none;
 }
 
@@ -613,6 +614,7 @@ margin-top: 50px;
 
 @media only screen and (max-width:768px) {
   .p-logo{
+    cursor: pointer;
     display: none;
   }
 
@@ -805,11 +807,11 @@ margin-top: 50px;
 }
 
 @media only screen and (max-width:400px) {
-  .dropdown{
-    width: 250px;
-  }
   .hello-text{
     font-size: 18px;
+  }
+  .profile-email{
+    font-size:10px ;
   }
   .t-t-d{
     font-size: 16px;
@@ -849,6 +851,10 @@ margin-top: 50px;
 }
 
 @media only screen and (max-width:350px) {
+  .dropdown{
+    width: 250px;
+  }
+
   .login-form{
     width:90%;
   }

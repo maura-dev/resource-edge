@@ -43,7 +43,7 @@ export default function ResetPassword() {
             setShowConfirmation(true);
             setTimeout(() => {
                 setShowResetPage(true)
-            }, 3000);
+            }, 2000);
         }
         
     }

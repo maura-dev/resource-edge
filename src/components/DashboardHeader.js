@@ -52,12 +52,16 @@ export default function DashboardHeader({email}) {
         localStorage.setItem("loggedUserDetails", JSON.stringify(editedUser))
     }
 
+    const goToHomePage = ()=>{
+        navigate("/")
+    }
+
     return (
         <header>
             <div className='left-content'>
                 <img src={Hamburger} alt="menu"/>
-                <img src={Logo} alt="logo" className='p-logo'/>
-                <img src={MobileLogo} alt="logo" className='l-logo'/>
+                <img src={Logo} alt="logo" className='p-logo' onClick={goToHomePage}/>
+                <img src={MobileLogo} alt="logo" className='l-logo' onClick={goToHomePage}/>
                 {role === 1 ? (<p>TM Dashboard</p>) : (<p>Employee Dashboard</p>)}
             </div>
             <div className="right-content" onClick={toggleShowDropdown}>
