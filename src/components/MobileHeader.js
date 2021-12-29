@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
 import Logo from "../assets/Group.svg";
 import Hamburger from "../assets/menu-outline.svg";
